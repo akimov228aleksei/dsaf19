@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for i in points %}
+    <p>Точка №{{ i.id }} ({{ i.point.x }}, {{ i.point.y }})</p>
+{% endfor %}
+</body>
+</html>
