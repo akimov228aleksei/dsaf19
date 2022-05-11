@@ -1,0 +1,2 @@
+
+## To run the project you need to set up the database in `settings.py` and you must install the `PostGis` extension. Detailed instructions - https://django.fun/docs/django/ru/3.2/ref/contrib/gis/install/postgis/#creating-a-spatial-database
